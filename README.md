@@ -37,7 +37,7 @@ hl send <originChain> <mailboxAddress> <rpcUrl> <destinationChain> <destinationA
 Example of sending a message from Polygon (Mumbai) to Ethereum (Sepolia) chains:
 
 ```
-hl send-testnet 80001 0xCC737a94FecaeC165AbCf12dED095BB13F037685 https://polygon-mumbai.infura.io/v3/78f4cab345de410d828f2ab1ab536123 11155111 0x36FdA966CfffF8a9Cdc814f546db0e6378bFef35 "Test msg from Mumbai to Sepolia"
+hl send 80001 0xCC737a94FecaeC165AbCf12dED095BB13F037685 https://polygon-mumbai.infura.io/v3/78f4cab345de410d828f2ab1ab536123 11155111 0x36FdA966CfffF8a9Cdc814f546db0e6378bFef35 "Test msg from Mumbai to Sepolia"
 ```
 
 ### 2. Search for messages
