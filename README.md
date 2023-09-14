@@ -14,6 +14,7 @@ npm i
 ```
 WALLET_PK=<YOUR WALLET PRIVATE KEY ON THE ORIGIN CHAIN>
 MAILBOX_ADDRESS="0xcc737a94fecaec165abcf12ded095bb13f037685"
+INFURA_API_KEY="<PLACE INFURA KEY HERE>"
 ```
 
 4. Build the project:
@@ -41,15 +42,17 @@ hl send-testnet 80001 0xCC737a94FecaeC165AbCf12dED095BB13F037685 https://polygon
 
 ### 2. Search for messages
 
+
+
 Use the command:
 
 ```
-hl search <originChain> <senderAddress> <destinationChain> <recipientAddress>
+hl search <path to JSON MatchingListElement file>
 ```
 
 Example of searching Ethereum (Sepolia) for messages from 0x78eeee6a6870526cdfF97BF205C1DeB4A8b2cA61 being sent to Polygon (Mumbai) address 0x36FdA966CfffF8a9Cdc814f546db0e6378bFef35
 
 ```
-hl search 11155111 0x78eeee6a6870526cdfF97BF205C1DeB4A8b2cA61 80001 0x36FdA966CfffF8a9Cdc814f546db0e6378bFef35
+hl search test/search-example.json
 ```
 

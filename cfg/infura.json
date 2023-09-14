@@ -1,0 +1,15 @@
+{
+    "42161": "arbitrum-mainnet",
+    "43114": "avalanche-mainnet",
+    "42220": "celo-mainnet",
+    "1": "mainnet",
+    "10": "optimism-mainnet",
+    "137": "polygon-mainnet",
+    "5": "goerli",
+    "11155111": "sepolia",
+    "80001": "polygon-mumbai",
+    "420": "optimism-goerli",
+    "421613": "arbitrum-goerli",
+    "43113": "avalanche-fuji",
+    "44787": "celo-alfajores"
+}
